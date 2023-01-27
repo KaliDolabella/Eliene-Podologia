@@ -1,0 +1,177 @@
+/*CSS Reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container-fluid {
+  padding-left: 150px;
+  padding-right: 150px;
+}
+
+header {
+  background-color: #f1f1f1;
+  height: 150px;
+}
+
+.toplogo img {
+  height: 150px;
+}
+
+.toplinks {
+
+}
+
+.social{
+  height: 50px;
+  width: 250%;
+}
+
+.social img {
+  height: 60%;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.container {
+  max-width: 1200px;
+}
+
+.cabecalho {
+  display: flex;
+  height: 100px;
+}
+
+.titulo {
+padding-top: 25px;
+}
+
+.titulo h1 {
+  text-align: center;
+  color:#EC008C
+}
+
+.agendar {
+  border: 0px;
+  box-sizing: border-box;
+  border: #EC008C;
+}
+
+.agendar a {
+  color: #ffffff;
+  font-size: 35px;
+  background-color: #EC008C;
+  justify-items: end;
+  border-radius: 30px;
+}
+
+.menu {
+  background-color: #F8BB8B;
+  width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.menu a {
+  padding-top: 1%;
+  height: 80px;
+  font-size: 200%;
+  color: #f2f2f2;
+}
+
+.fachada img {
+  width: 520px;
+  size: 100%;
+}
+
+.profi h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 250%;
+}
+
+.ofertas {
+  background-color: #ffffff;
+  padding-top: 30px;
+}
+.ofertas h2 {
+  font-family: 'Roboto';
+  color:  #EC008C;
+  font-size: 27px;
+}
+
+.ofertas h3 {
+  color: black;
+}
+
+.ofertas p {
+  color: black;
+}
+
+.espaco-produtos{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 25px;
+}
+
+
+.cardnews{
+  width: 15em;
+  height: 22.5em;
+  background: linear-gradient(180deg, rgb(236, 236, 236) 0%, #ffffff 100%);
+  color: #f2f2f2;
+  margin-bottom: 2em;
+  box-shadow: 0px 0px 10px rgb((248, 187, 139)),0px 0px 30px rgb(255, 255, 255);
+}
+
+.cardnews {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cardnews img {
+  width: 100%;
+}
+
+.texto-card {
+  width: 85%;
+  height: 55%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+
+.texto-card h3, .texto-card p {
+  margin: 0;
+}
+
+.cardnews h3{
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.cardnews .preco {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.cardnews a {
+  width: 100%;
+  height: 35px;
+  text-align: center;
+  line-height: 2;
+  
+  background-color: #C31616;
+  border-radius: 5px;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 600;
+}
